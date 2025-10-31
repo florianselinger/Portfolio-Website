@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact - Florian Selinger</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact Florian Selinger</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>If you would like to get in touch, feel free to reach out.</p>
+
+                <form action="mailto:florianselinger28@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required placeholder="Your Name" minlength="3"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required placeholder="Your E-Mail" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" required placeholder="Write your message here... max 250 characters" minlength="5" maxlength="250"></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
+
+                <div class="contact-info">
+                    <h3>Other Ways to Contact Me:</h3>
+                    <ul>
+                        <li>GitHub: <a href="https://github.com/florianselinger" target="_blank">florianselinger</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
